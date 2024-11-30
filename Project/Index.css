@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* 1 sec start now */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.first_sec {
+  background-image: url("Uses/thumb-1920-1360655.jpg"); /* Path to your background image */
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* Full viewport height; adjust as needed */
+  padding: 20px; /* Add padding if needed */
+}
+
+.image-wrapper img {
+  clip-path: circle(50% at 50% 50%);
+  width: 350px; /* Adjust as needed */
+  height: 350px;
+  object-fit: cover;
+}
+
+.image-wrapper {
+  padding-right: 110px;
+}
+
+.head_div {
+  padding-top: 210px;
+}
+
+.header {
+  font-size: 45px;
+  font-family: roboto;
+  font-weight: bold;
+}
+
+.header_under {
+  margin-left: 52px;
+  font-size: 20px;
+  font-family: roboto;
+  font-weight: bold;
+  color: rgb(178, 178, 178);
+}
+
+sup {
+  color: rgb(178, 178, 178);
+}
+
+.first_icons {
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.first_icons i {
+  margin-bottom: 20px;
+  color: rgb(178, 178, 178);
+}
+
+/* Flex container to align items horizontally */
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Aligns items vertically in the middle */
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.first_section {
+  padding-right: 20px; /* Space between text and vertical line */
+}
+
+.vertical-line {
+  width: 1px; /* Thickness of the vertical line */
+  height: 350px; /* Height of the vertical line */
+  background-color: rgba(170, 170, 170, 0.347); /* Color of the line */
+  margin: 0 20px; /* Space on both sides of the line */
+}
+
+.links,
+.first_links {
+  font-size: 30px;
+}
+
+.first_links {
+  padding-left: 30px;
+}
+
+.links i,
+.first_links i {
+  color: black;
+}
+
+.links i {
+  padding-left: 10px;
+}
+
+.fa-facebook:hover {
+  color: rgb(178, 178, 178);
+}
+
+.fa-x-twitter:hover {
+  color: rgb(178, 178, 178);
+}
+
+.fa-linkedin-in:hover {
+  color: rgb(178, 178, 178);
+}
+
+.fa-instagram:hover {
+  color: rgb(178, 178, 178);
+}
+
+.fa-discord:hover {
+  color: rgb(178, 178, 178);
+}
+
+/* 2 sec start now */
+
+.second_img {
+  width: 350px;
+  border-radius: 15px;
+}
+
+.intro_img {
+  float: left;
+  margin-left: 110px;
+  padding-top: 120px;
+}
+
+.intro {
+  float: right;
+  padding-right: 60px;
+  padding-top: 50px;
+}
+
+.sec_two {
+  background-image: url("Uses/1282554.jpg"); /* Path to your background image */
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 130vh; /* Full viewport height; adjust as needed */
+  padding: 20px; /* Add padding if needed */
+}
+
+.glass_effect {
+  background: rgba(27, 26, 26, 0.2); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  color: #ffffffeb; /* Text color */
+  font-size: 1em; /* Adjust font size as needed */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  font-family: Calibri;
+  font-size: 23px;
+  margin-top: 80px;
+}
+
+.container_second_sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+/* 3 sec start now */
+
+.photoshop,
+.filmora,
+.capcut,
+.vscode,
+.canva,
+.msoffice,
+.googleads {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 45px;
+}
+.fullicon2sec {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.fullicon2sec h3 {
+  color: black;
+  font-weight: 600;
+}
+
+.firstrow,
+.secondrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.firstrow .photoshop,
+.filmora,
+.capcut {
+  padding-right: 100px;
+}
+
+.secondrow {
+  margin: 20px;
+  padding: 40px;
+}
+.Skills_Tools {
+  text-align: center;
+  font-size: 50px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  line-height: 70px;
+  background: rgba(225, 225, 225, 0.2);
+  border-radius: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Merriweather;
+}
+
+.third_sec_header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.third_sec {
+  background-image: url("Uses/1305422.jpg"); /* Path to your background image */
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 130vh; /* Full viewport height; adjust as needed */
+  padding: 20px; /* Add padding if needed */
+}
+
+.photoshop_one,
+.filmora_one,
+.capcut_one,
+.vscode_one,
+.canva_one,
+.msoffice_one,
+.googleads_one {
+  background: rgba(27, 26, 26, 0.2); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  color: #ffffffeb; /* Text color */
+  font-size: 1em; /* Adjust font size as needed */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  font-family: Calibri;
+  font-size: 23px;
+  margin-top: 80px;
+  text-align: center;
+  margin-top: 0;
+}
+
+/* 4 sec start now */
+
+.forth_sec {
+  font-family: sans-serif;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+}
+
+/* Parent container to center the section */
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+/* Styling for the section */
+.forth_sec {
+  text-align: center;
+  border: 2px solid #ccc; /* Optional: To visualize the section */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.411); /* Optional styling */
+  background-color: #fff; /* Optional background */
+  height: auto;
+  width: 65%;
+  margin-bottom: 120px;
+  padding-bottom: 50px;
+}
+
+input,
+textarea {
+  display: block; /* Align inputs in a column */
+  padding: 12px;
+  width: 80%; /* Optional: Adjust width */
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 12px;
+  font-family: Cormorant Garamond;
+  font-weight: 900;
+}
+
+.forth_sec h1 {
+  margin-bottom: 20px;
+  font-size: 3em;
+  margin-top: 0;
+  font-family: Cormorant Garamond;
+  font-weight: 900;
+}
+
+.contact p {
+  text-align: center;
+  font-size: 25px;
+  font-family: Cormorant Garamond;
+  font-weight: 900;
+}
+
+.btn {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: bold;
+  background: rgb(17, 168, 168);
+  width: 160px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button {
+  margin-top: 50px;
+}
+
+.btn:hover {
+  box-shadow: 1px 1px 5px #325980;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.262);
+  background-color: #325980;
+}
+
+/* Footer */
+
+.footer-col ul {
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: #24262b;
+  padding-bottom: 70px;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+  flex-direction: column; /* Stack child elements */
+  align-items: flex-start; /* Align content to the left */
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.footer-col .social-links {
+  margin-bottom: 20px; /* Create spacing below the social links */
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+.copy p{
+  text-decoration: none;
+  color: #cdcccc;
+  font-weight: 300;
+  display: inline-block;
+}
+
+.copy {
+  margin-top: 10px;
+  color: #bbbbbb;
+  font-weight: 300;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/*responsive*/
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
